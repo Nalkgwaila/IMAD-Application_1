@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IMAD application 1</string>
+    <string name="GenerateHistoryButton">GenerateHistory</string>
+    <string name ="ClearButton">Clear</string>
+    <string name="CloseButton">Close</string>
+    <string name="Textview">Enter your Age</string>
+    <string name = "TextView2">History App</string>
+    <string name="EditText">editText</string>
+    <string name="enter_age">Please enter your age</string>
+    <string name = "invalid_input">"Please enter a valid whole number</string>
+</resources>
