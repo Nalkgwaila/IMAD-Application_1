@@ -1,0 +1,35 @@
+name: Android Tests
+
+on:
+
+  push:
+    branches:
+      - main
+      
+workflow_dispatch:
+ jobs:
+  build-and-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    -name: Checkout code 
+       uses: actions/checkout@v2
+
+      -name: Set up Android 
+          uses : reactcircus/android-emulator@v2
+              with 
+              api- level : 0
+              arch: x86_64
+              emulator: pixel_7_xl
+          -name : Bulid and test 
+          run: |
+          ./gradlew assembleDebug
+          ./gradew connectedAndroidTest
+          -name : upload test results
+          uses: actions/upload-artifact@v3
+          with: 
+          name: test-results
+          path : app/bulid/reports/androidTests/connected
+
+     
