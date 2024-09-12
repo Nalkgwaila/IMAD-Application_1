@@ -37,3 +37,5 @@ UX 4 Sight. 2024.Moblie Application Design: Key Considerations for Mobile Apps, 
 
  ![Screenshot_20240911_230934](https://github.com/user-attachments/assets/7b139dcf-fb58-4739-b3c1-d7f28149a44a)
  https://youtu.be/BrSfSGm7q4c
+ ![Screenshot_20240912_190740](https://github.com/user-attachments/assets/94ffd9f0-cefb-4f9b-b30e-4fd4aa3edbca)
+
