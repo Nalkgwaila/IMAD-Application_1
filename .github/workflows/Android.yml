@@ -14,10 +14,10 @@ workflow_dispatch:
 
     steps:
     -name: Checkout code 
-       uses: actions/checkout@v2
+       uses: actions/checkout@v3
 
       -name: Set up Android 
-          uses : reactcircus/android-emulator@v2
+          uses : reactivecircus/android-emulator@v2
               with 
               api- level : 0
               arch: x86_64
